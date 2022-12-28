@@ -1,10 +1,11 @@
 body {
   text-align: center;
-  background-color: #e3f6f5;
+  background-color: #e7eaf6;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .container {
   max-width: 400px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.7);
   border-radius: 10px;
   display: block;
   margin: 50px auto;
@@ -32,7 +33,7 @@ footer {
 
 .city {
   display: flex;
-  padding: 15px;
+  padding: 25px;
   justify-content: space-between;
   text-align: left;
   border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
