@@ -18,6 +18,7 @@ function updateCity(event) {
           )} <small>${cityTime.format("A")}</small></div>
         </div>
     </div>
+    <a href="/">Back to City List </a>
   `;
   }, 1000);
 }

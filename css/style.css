@@ -28,6 +28,11 @@ select {
   font-size: 14px;
 }
 
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
 .city {
   display: flex;
   padding: 25px;
