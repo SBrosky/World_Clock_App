@@ -5,17 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <title>World Clock</title>
   </head>
+
   <body>
-    <h1>World Clock</h1>
-    <footer>
-      Coded by Steph Brosky
-      <a href="https://github.com/SBrosky/World_Clock_App.git"
-        >Open-source code</a
-      >
-      available on Github
-    </footer>
+    <div class="container text-center">
+      <h1>World Clock</h1>
+      <select name="city" id="select-City">
+        <option value="">Select a City</option>
+        <option value="london">London</option>
+        <option value="new-york">New York</option>
+        <option value="tokyo">Tokyo</option>
+        <option value="moscow">Moscow</option>
+      </select>
+
+      <div class="cities">
+        <hr />
+        <h2>Jakarta</h2>
+        <div class="date">December 27th, 2022</div>
+        <div class="time">11:38 AM</div>
+        <hr />
+        <h2>Auckland</h2>
+        <div class="date">December 27th, 2022</div>
+        <div class="time">11:38 AM</div>
+        <hr />
+        <h2>Vancouver</h2>
+        <div class="date">December 27th, 2022</div>
+        <div class="time">11:38 AM</div>
+        <hr />
+      </div>
+      <footer>
+        Coded by Steph Brosky
+        <a href="https://github.com/SBrosky/World_Clock_App.git"
+          >Open-source code</a
+        >
+        available on Github
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
     <script src="javascript/index.js"></script>
   </body>
 </html>
