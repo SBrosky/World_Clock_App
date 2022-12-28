@@ -49,18 +49,6 @@ setInterval(function () {
       "h:mm:ss [<small>]A[</small>]"
     );
   }
-  // bangkok
-
-  let bangkokElement = document.querySelector("#bangkok");
-  if (bangkokElement) {
-    let bangkokTime = bangkokElement.querySelector(".time");
-    let bangkokDate = bangkokElement.querySelector(".date");
-    let bangkokCurrentTime = moment().tz("Asia/Bangkok");
-    bangkokDate.innerHTML = bangkokCurrentTime.format("MMMM Do, YYYY");
-    bangkokTime.innerHTML = bangkokCurrentTime.format(
-      "h:mm:ss [<small>]A[</small>]"
-    );
-  }
 
   // vancouver
 
