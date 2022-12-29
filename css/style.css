@@ -3,20 +3,8 @@ body {
   background-color: #e7eaf6;
   font-family: Arial, Helvetica, sans-serif;
 }
-.container {
-  max-width: 400px;
-  background-color: rgba(255, 255, 255, 0.7);
-  border-radius: 10px;
-  display: block;
-  margin: 50px auto;
-  margin-bottom: 10px;
-  padding: 15px;
-}
-h1 {
-  margin: 0px;
-}
 
-h2 {
+h1 {
   margin: 0px;
 }
 
@@ -28,9 +16,27 @@ select {
   font-size: 14px;
 }
 
+h2 {
+  margin: 0px;
+}
+
 a {
   text-decoration: none;
   font-weight: bold;
+}
+
+footer {
+  font-size: 12px;
+}
+
+.container {
+  max-width: 400px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  display: block;
+  margin: 50px auto;
+  margin-bottom: 10px;
+  padding: 15px;
 }
 
 .city {
